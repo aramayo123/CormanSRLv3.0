@@ -1,66 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛠️ CormanWeb 2.1
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**CormanWeb** es una aplicación web diseñada para la gestión operativa de tareas técnicas y preventivas. Su principal objetivo es facilitar a los operarios el registro de actividades mediante imágenes, gastos y seguimiento del proceso, todo desde una interfaz clara, con autenticación y administración de usuarios.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🧾 Funcionalidades Principales
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### 🔐 Inicio de Sesión
+- Autenticación de usuarios mediante usuario y contraseña administrados.
+- Control de acceso seguro para operarios asignados.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 📋 Gestión de Tareas
+- Creación de tareas técnicas o preventivas.
+- Selección del tipo de tarea a ejecutar.
+- Asignación de personal responsable.
+- Registro de información obligatoria en el formulario.
 
-## Learning Laravel
+### 📷 Registro Visual y de Insumos
+- Subida de imágenes como evidencia del trabajo realizado.
+- Inclusión de gastos asociados a la tarea.
+- Asociación de materiales utilizados para cada tarea.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+> ⚠️ *Si algún material no figura en el listado, debe solicitarse su carga lo antes posible para mantener el inventario actualizado.*
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 🧹 Eliminación de Imágenes
+- Posibilidad de eliminar imágenes cargadas.
+- Confirmación obligatoria para evitar errores de eliminación.
+- Interfaz visual con ícono de eliminación (`X`) en cada imagen.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 📑 Historial de Movimientos
+- Visualización de todas las acciones realizadas dentro de la plataforma.
+- Supervisores pueden auditar tareas realizadas por técnicos.
+- Técnicos pueden consultar el historial de sus propias intervenciones.
+- Mejora del control y trazabilidad de actividades dentro del sistema.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 👷‍♂️ Flujo de Trabajo del Operario
 
-### Premium Partners
+1. **Iniciar sesión** con sus credenciales asignadas.
+2. **Crear una nueva tarea**, elegir tipo (técnica o preventiva), asignar personal y completar los campos requeridos.
+3. **Completar la tarea** subiendo imágenes del trabajo realizado y agregando los gastos correspondientes.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+---
 
-## Contributing
+## 🛠️ Tecnologías Utilizadas
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+> No especificadas en el documento, pero se asume uso de:
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP / Framework relacionado
+- Base de Datos: MySQL u otra
+- Control de acceso: Sistema de login administrado
 
-## Code of Conduct
+(⚠️ Actualizar esta sección con las tecnologías reales utilizadas)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📦 Instalación y Despliegue
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+> No detallado en el documento original.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Sugerencia general:
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/CormanWeb.git
