@@ -1,4 +1,4 @@
-# 🛠️ CormanWeb 2.1
+# 🛠️ CormanWeb 3.0
 
 **CormanWeb** es una aplicación web diseñada para la gestión operativa de tareas técnicas y preventivas. Su principal objetivo es facilitar a los operarios el registro de actividades mediante imágenes, gastos y seguimiento del proceso, todo desde una interfaz clara, con autenticación y administración de usuarios.
 
