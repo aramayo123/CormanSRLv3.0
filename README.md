@@ -52,13 +52,9 @@
 - Base de Datos: MySQL u otra
 - Control de acceso: Sistema de login administrado
 
-(⚠️ Actualizar esta sección con las tecnologías reales utilizadas)
-
 ---
 
 ## 📦 Instalación y Despliegue
-
-> No detallado en el documento original.
 
 Sugerencia general:
 1. Clonar el repositorio:
