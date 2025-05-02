@@ -46,7 +46,6 @@
 
 ## 🛠️ Tecnologías Utilizadas
 
-> No especificadas en el documento, pero se asume uso de:
 - Frontend: HTML, CSS, JavaScript
 - Backend: PHP / Framework relacionado
 - Base de Datos: MySQL u otra
